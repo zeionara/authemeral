@@ -1,0 +1,39 @@
+{
+  "name": "insomnia-plugin-authemeral",
+  "version": "0.1",
+  "description": "Insomnia plugin for automatic token generation for requests using authentication service",
+  "private": false,
+  "license": "Apache License 2.0",
+  "keywords": [
+    "insomnia",
+    "insomnia-plugin",
+    "token",
+    "authentication",
+    "bearer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeionara/authemeral.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeionara/authemeral/issues"
+  },
+  "homepage": "https://github.com/zeionara/authemeral#readme",
+  "author": "Zeio Nara <zeionara@gmail.com>",
+  "insomnia": {
+    "name": "authemeral",
+    "displayName": "Authemeral",
+    "description": "Gets authentication token for an api request",
+    "publisher": {
+      "name": "Zeio Nara",
+      "icon": "https://avatars.githubusercontent.com/u/22661961"
+    },
+    "images": {
+      "icon": "./assets/icon.svg"
+    }
+  },
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
