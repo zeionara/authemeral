@@ -1,6 +1,6 @@
 // const { readFileSync } = require('fs');
 // const { JSONPath } = require('jsonpath-plus');
-const axios = require('axios/dist/axios.min.js')
+const axios = require('axios')
 
 
 // module.exports.requestActions = [
